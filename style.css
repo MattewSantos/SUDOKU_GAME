@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.accordion {
+    background-color: #113b49;
+    color: yellow;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(46, 120, 181);
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+body{
+    text-align: center;
+}
+h1{
+    margin: 16px;
+    color: #113b49;
+}
+
+hr{
+    margin: auto;
+    width: 469px;
+    color: #113b49;
+}
+
+#result{
+    color: #b73a5c;
+    height: 49px;
+    margin-top: 9px;
+}
+
+div{
+    margin: auto;
+    width:420px;
+    display: flex;
+    flex-direction: row;
+}
+
+.by9_3{
+    margin-bottom: 4px;
+}
+
+.tile{
+    width: 45px;
+    height: 48px;
+    border: 1px solid #113b49;
+    
+    /*text*/
+    font-size: 20px;
+    font-weight: bold;
+    color: #5b8291;
+    text-align: center;
+}
+
+
+#num00,#num01,#num02,#num03,#num04,#num05,#num06,#num07,#num08{
+    border-top: 5px solid #113b49;
+}
+
+#num80,#num81,#num82,#num83,#num84,#num85,#num86,#num87,#num88{
+    border-bottom: 5px solid #113b49;
+}
+
+#num00,#num10,#num20,#num30,#num40,#num50,#num60,#num70,#num80{
+    border-left: 5px solid #113b49;
+}
+
+#num08,#num18,#num28,#num38,#num48,#num58,#num68,#num78,#num88{
+    border-right: 5px solid #113b49;
+}
+#num02,#num05,#num12,#num15,#num22,#num25,#num32,#num35,#num42,#num45,#num52,#num55,#num62,#num65,#num72,#num75,#num82,#num85{
+    border-right: 3px solid #113b49;
+}
+
+#num03,#num06,#num13,#num16,#num23,#num26,#num33,#num36,#num43,#num46,#num53,#num56,#num63,#num66,#num73,#num76,#num83,#num86{
+    border-left: 3px solid #113b49;
+}
+
+#num20,#num21,#num22,#num23,#num24,#num25,#num26,#num27,#num28,#num50,#num51,#num52,#num53,#num54,#num55,#num56,#num57,#num58{
+    border-bottom: 3px solid #113b49;
+}
+#num30,#num31,#num32,#num33,#num34,#num35,#num36,#num37,#num38,#num60,#num61,#num62,#num63,#num64,#num65,#num66,#num67,#num68{
+    border-top: 3px solid #113b49;
+}
+
+
+.btn{
+    margin-top: 43px;
+    margin-bottom:30px;
+}
